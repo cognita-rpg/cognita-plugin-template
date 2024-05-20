@@ -1,0 +1,12 @@
+metadata:
+  slug: plugin-template
+  name: "Cognita Plugin Template"
+  author: "Dax Harris"
+  version: "0.0.0"
+  urls:
+    repository: "https://github.com/cognita-rpg/cognita-plugin-template"
+
+exports:
+  testFunction:
+    file: "cognita-plugin-template/dist/index.cognita-plugin-template.js"
+    function: "testFunction"
