@@ -22,6 +22,7 @@ export default defineConfig({
         "react-dom",
         "@mantine/core",
         "@mantine/hooks",
+        "@mantine/form",
         "react/jsx-runtime",
       ],
       output: {

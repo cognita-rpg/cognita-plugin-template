@@ -1,3 +1,5 @@
+import { Text } from "@mantine/core";
+
 export function testFunction() {
-  return <div>HI THERE</div>;
+  return <Text>This is mantine text!</Text>;
 }
