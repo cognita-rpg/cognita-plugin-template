@@ -8,5 +8,6 @@ metadata:
 
 exports:
   testFunction:
+    type: "component"
     file: "cognita-plugin-template/dist/index.cognita-plugin-template.js"
     function: "testFunction"
