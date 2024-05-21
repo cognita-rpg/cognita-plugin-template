@@ -1,3 +1,3 @@
 export function testFunction() {
-  console.log("BEANS!");
+  return <div>HI THERE</div>;
 }

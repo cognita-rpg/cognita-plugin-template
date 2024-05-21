@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     copyPublicDir: false,
     lib: {
-      entry: path.resolve(__dirname, "lib/index.ts"),
+      entry: path.resolve(__dirname, "lib/index.tsx"),
       name: "cognita-plugin-template",
       formats: ["cjs"],
       fileName(format, entryName) {
@@ -17,7 +17,13 @@ export default defineConfig({
       },
     },
     rollupOptions: {
-      external: ["react", "react-dom", "@mantine/core", "@mantine/hooks"],
+      external: [
+        "react",
+        "react-dom",
+        "@mantine/core",
+        "@mantine/hooks",
+        "react/jsx-runtime",
+      ],
       output: {
         globals: {
           react: "React",
