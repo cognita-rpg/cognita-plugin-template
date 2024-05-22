@@ -24,6 +24,7 @@ export default defineConfig({
         "@mantine/hooks",
         "@mantine/form",
         "react/jsx-runtime",
+        "cognita-sdk",
       ],
       output: {
         globals: {
